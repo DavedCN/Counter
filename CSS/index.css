@@ -27,8 +27,7 @@ button {
     width: 200px;
     margin-bottom: 8px;
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
+    
 }
 
 #increment-btn {
@@ -68,9 +67,23 @@ button {
 @media screen and (max-width: 480px) 
 {
     
-button
+.button-container
 {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+button {
+ 
+    font-weight: bolder;
+    width: 250px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    
 }
 
 }
